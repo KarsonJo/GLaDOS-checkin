@@ -6,7 +6,8 @@ on:
   watch:
     types: [ started ]
   schedule:
-    - cron: 0 */6 * * *
+    - cron: 0 0,16 * * *
+  workflow_dispatch:
 
 jobs:
   GLaDOS-checkin:
